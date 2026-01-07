@@ -7,15 +7,211 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
     <header>
         <img class="dash_menu" src="./images/menu-bar.svg" alt=""></img>
         <img class="dash_logo" src="./images/logo.svg" alt=""></img>
-        <input class="form-control mr-sm-2 search_bar" type="search" placeholder="Search" aria-label="Search">
-        </nav>
+        <span class="search_text">Search</span>
+        <!-- <input class="form-control mr-sm-2" id="search_bar" type="search" placeholder="Search" aria-label="Search"> -->
+        <img src="./images/search-icon.svg" alt="" class="dash_search_icon">
+        <img src="./images/notification-icon.svg" alt="" class="dash_notification_icon">
+        <img src="./images/profile.png" alt="" class="dash_profile">
+        <img src="./images/downward-arrow.svg" alt="" class="dash_arrow">
     </header>
+
+    <div class="sidebar">
+        <div>
+            <img class="dash_icon" src="./images/dashboard-active.svg" alt="">
+            <span class="dash_text">Dashboard</span>
+        </div>
+
+        <img class="dash_analysis_icon" src="./images/graph-default.svg" alt="">
+        <span class="dash_analysis_text">Analysis</span>
+
+
+        <img class="dash_inbox_icon" src="./images/inbox-default.svg" alt="">
+        <span class="dash_inbox_text">Inbox</span>
+
+        <img class="dash_history_icon" src="./images/clock-default.svg" alt="">
+        <span class="dash_history_text">History</span>
+
+        <img class="dash_user_icon" src="./images/user-default.svg" alt="">
+        <span class="dash_user_text">Users</span>
+
+        <img class="dash_maintenance_icon" src="./images/maintenance-default.svg" alt="">
+        <span class="dash_maintenance_text">Maintenance</span>
+
+        <img class="dash_setting_icon" src="./images/search-icon.svg" alt="">
+        <span class="dash_setting_text">Setting</span>
+    </div>
+
+    <div class="dashboard_title">
+        Dashboard
+    </div>
+
+    <div>
+        <img class="star" src="./images/star.svg" alt="">
+        <span class="prod_number">23,456</span>
+        <span class="prod_text">New Products</span>
+    </div>
+
+    <div>
+        <img class="add" src="./images/new-product.svg" alt="">
+        <span class="prod_add">2345</span>
+        <span class="add_text">Added Products</span>
+    </div>
+
+    <div>
+        <img class="total" src="./images/total-product.svg" alt="">
+        <span class="prod_total">32,456</span>
+        <span class="total_text">Total Products</span>
+    </div>
+
+    <div>
+        <img class="dollar" src="./images/dollar-filled.svg" alt="">
+        <span class="dollar_num">5678</span>
+        <span class="dollar_text">Today's Sale</span>
+    </div>
+
+    <div>
+        <img class="total_sale" src="./images/money-bag.svg" alt="">
+        <span class="total_sale_num">33,5342</span>
+        <span class="total_sale_text">Total Sale</span>
+    </div>
+
+    <div>
+        <text class="sale">Sale</text>
+        <div class="weekly">
+            <text>Weekly</text>
+            <text class="monthly">Monthly</text>
+        </div>
+
+        <text class="yearly">Yearly</text>
+        <text class="line"></text>
+
+        <img class="graph" src="./images/data-graph.png" alt="">
+    </div>
+    <div class="pie_div">
+        <p class="country_text">Sales by Country</p>
+        <img src="./images/pie-chart.svg" class="pie_chart" alt="">
+        <!-- <div class="country_name"> -->
+        <span class="point1"></span>
+        <p class="usa">United States of America</p>
+
+
+        <span class="point2"></span>
+        <p class="russia">Russia</p>
+
+        <span class="point3"></span>
+        <p class="canada">Canada</p>
+
+        <span class="point4"></span>
+        <p class="india">India</p>
+        <!-- </div> -->
+    </div>
+
+
+    <div class="invoice_div">
+        <p class="invoice">Invoices</p>
+        <p class="view_all">View All</p>
+
+        <table class="table table-borderless mt-5 invoice_table ">
+            <thead>
+                <tr>
+                    <th class="col-1" style="color: #ADADAD;">INVOICE</th>
+                    <th class="col-2" style="color: #ADADAD;">COMPANY NAME</th>
+                    <th class="col-2" style="color: #ADADAD;">EMAIL</th>
+                    <th class="col-2" style="color: #ADADAD;">DUE DATE</th>
+                    <th class="col-1" style="color: #ADADAD;">Paid</th>
+                    <th scope="col-2" style="color: #ADADAD;">AMOUNT</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th>651535</th>
+                    <td>Public Adjusting Firm</td>
+                    <td>georgia.young@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td style="color: #3CDD5F; font-weight: 1000;">Paid</td>
+                    <td>$47,800</td>
+                </tr>
+                <tr>
+                    <th>558612</th>
+                    <td>Other</td>
+                    <td>jessica.hanson@example.com</td>
+                    <td>24 May, 2020</td>
+                    <td style="color: #3CDD5F; font-weight: 1000;">Paid</td>
+                    <td>$98,000</td>
+                </tr>
+                <tr>
+                    <th>558612</th>
+                    <td> alma.lawson@example.com </td>
+                    <td>Doe</td>
+                    <td>8 Sep, 2020</td>
+                    <td style="color: #3CDD5F; font-weight: 1000;">Paid</td>
+                    <td>$20,900</td>
+                </tr>
+                <tr>
+                    <th>558612</th>
+                    <td>Property Management Company</td>
+                    <td> kenzi.lawson@example.com </td>
+                    <td>22 Oct, 2020</td>
+                    <td style="color: #3CDD5F; font-weight: 1000;">Paid</td>
+                    <td>$10,570</td>
+                </tr>
+                <tr>
+                    <th>651535</th>
+                    <td>Subcontractor Company</td>
+                    <td>jackson.graham@example.com </td>
+                    <td>1 Feb, 2020</td>
+                    <td style="color: #FF4545; font-weight: 700;">Failed</td>
+                    <td>$10,200</td>
+                </tr>
+                <tr>
+                    <th>653518</th>
+                    <td>Mortgage Company</td>
+                    <td> felicia.reid@example.com </td>
+                    <td>22 Oct, 2020</td>
+                    <td>Pending</td>
+                    <td>$12,600</td>
+                </tr>
+                <tr>
+                    <th>487441</th>
+                    <td>TPA</td>
+                    <td> dolores.chambers@example.com </td>
+                    <td>21 Sep, 2020</td>
+                    <td style="color: #3CDD5F; font-weight: 1000;">Paid</td>
+                    <td>$11,170</td>
+                </tr>
+                <tr>
+                    <th>267400</th>
+                    <td>Fire Department</td>
+                    <td> navaeh.simmons@example.com </td>
+                    <td>17 Oct, 2020</td>
+                    <td style="color: #FF4545; font-weight: 700;">Failed</td>
+                    <td>$28,000</td>
+                </tr>
+                <tr>
+                    <th>449003</th>
+                    <td>Insurance Carrier</td>
+                    <td> curtis.weaver@example.com </td>
+                    <td>21 Sep, 2020</td>
+                    <td style="color: #3CDD5F; font-weight: 1000;">Paid</td>
+                    <td>$10,000</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+
+
 </body>
 
 </html>
