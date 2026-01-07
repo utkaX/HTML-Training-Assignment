@@ -162,12 +162,12 @@
     opacity: 1;
 }
 
+/* 
 .dash_header {
     top: 0px;
     left: 0px;
     width: 1500px;
     height: 80px;
-    /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -178,7 +178,6 @@
     left: 29px;
     width: 30px;
     height: 30px;
-    /* UI Properties */
     background: 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -190,7 +189,6 @@
     left: 72px;
     width: 142px;
     height: 30px;
-    /* UI Properties */
     opacity: 1;
 
 }
@@ -201,7 +199,6 @@
     left: 325px;
     width: 600px;
     height: 21px;
-    /* UI Properties */
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
@@ -215,7 +212,6 @@
     left: 325px;
     width: 49px;
     height: 21px;
-    /* UI Properties */
     text-align: left;
     font: normal normal normal 16px/21px Roboto;
     letter-spacing: 0px;
@@ -230,7 +226,6 @@
     left: 291px;
     width: 25px;
     height: 25px;
-    /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
@@ -241,8 +236,7 @@
     left: 1120px;
     width: 22px;
     height: 21px;
-    /* UI Properties */
-    background: #FFFFFF 0% 0% no-repeat padding-box;
+     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
 }
 
@@ -251,10 +245,7 @@
     top: 23px;
     left: 1170px;
     width: 32px;
-    height: 32px;
-    /* UI Properties */
-    /* background: transparent url('img/Ellipse 19.png') 0% 0% no-repeat padding-box; */
-    opacity: 1;
+    height: 32px; opacity: 1;
 }
 
 .dash_arrow {
@@ -263,11 +254,10 @@
     left: 1210px;
     width: 50px;
     height: 20px;
-    /* UI Properties */
     background: #FFFFFF 0% 0% no-repeat padding-box;
     opacity: 1;
-}
-
+} 
+*/
 
 .dash_icon {
     position: absolute;
@@ -923,7 +913,7 @@
 }
 
 
-.invoice_table{
+.invoice_table {
     font: normal normal normal 12px/20px Roboto;
     color: #3E3E3E;
 }
